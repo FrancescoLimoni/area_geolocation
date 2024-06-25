@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .bg-background {
+    /* Define your custom background color here */
+    background-color: #f0f0f0; /* Example color */
+  }
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
